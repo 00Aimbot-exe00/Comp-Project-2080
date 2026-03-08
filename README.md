@@ -40,15 +40,21 @@ Contents:
  
 Installation: 
 -------------
-Run the Python script to launch a Tkinter-based UI that displays the dashboard.
+Run the Python script to launch a Ptqt6 GUI that displays the dashboard.
 The interface is organized into frames for income, expenses, assets, and alerts.
 
 Quick Start:
 ------------
 Download through the terminal 
-  python3 --version
-Open 
-python3 dashboard.py
+ python3 -m venv venv
+ python -m pip install --upgrade pip
+ python -m pip install PyQt6 matplotlib
+ 
+Run the app
+ python finance_app.py
+
+
+
 
 
 
