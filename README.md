@@ -51,7 +51,6 @@ Download through the terminal
  python -m pip install PyQt6 matplotlib
  
 Run the app
-
  python finance_app.py
 
 
