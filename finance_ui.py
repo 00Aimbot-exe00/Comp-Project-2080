@@ -15,7 +15,7 @@ from PyQt6.QtGui import QAction, QPixmap, QPainter, QPainterPath, QLinearGradien
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from finance_logic import get_monthly_breakdown, get_yearly_category_series
-import resources_rc  
+
 
 DB_NAME = "finance.db"
 
