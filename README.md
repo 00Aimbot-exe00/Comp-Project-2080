@@ -31,9 +31,6 @@ Contents:
   * Warehouse
   * Land
 
-- Notifications:
-  * Alerts for overdue bills
-
 - Progress Tracking:
   * Monthly income goals
   * Expense vs. income comparison
