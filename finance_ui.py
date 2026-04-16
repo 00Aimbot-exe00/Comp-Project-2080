@@ -111,7 +111,7 @@ class ProfileCircle(QFrame):
             self._on_change(file_path)
 
 class CreditCardWidget(QFrame):
-    """Improved Credit Card Widget - now fits perfectly (no more cramped/scaled text)"""
+    """Credit Card Widget"""
     def __init__(self, full_card_number: str = "", on_change=None, parent=None):
         super().__init__(parent)
         self._on_change = on_change
@@ -1224,7 +1224,7 @@ class MainWindow(QMainWindow):
         self._delete_selected_row(self.butt_table, "budget")
 
     def _delete_selected_row(self, table_widget: QTableWidget, db_table: str):
-        """Common helper: delete selected row from table + database"""
+        """Delete selected row from table + database"""
         row = table_widget.currentRow()
         if row < 0:
             QMessageBox.warning(self, "No Row Selected", "Please click a row to delete first.")
